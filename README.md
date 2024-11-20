@@ -7,7 +7,10 @@
 
 ## Installation
 ```bash
-git clone https://github.com/tervicke/mindwave.git
+git clone https://github.com/tervicke/Mindwave
+cd ./Mindwave
+python3 -m venv venv
+source ./venv/bin/activate
 pip install -r requirements.txt
 make 
 ```
